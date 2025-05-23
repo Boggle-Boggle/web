@@ -1,7 +1,7 @@
 const Header = () => {
   return (
     <>
-      <header className='w-full fixed bg-white h-16 shadow-md'>
+      <header className='w-full fixed bg-white h-16 shadow-md z-100'>
         <section className='w-4xl m-auto flex items-center h-full justify-between'>
           <p className='font-extrabold text-lg'>빼곡 : 빼곡하게 채우는 나만의 책장</p>
           <a
