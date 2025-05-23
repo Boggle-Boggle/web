@@ -50,7 +50,7 @@ export default function Home() {
 
         <section className='py-12 flex justify-between'>
           <Image src={info2} alt='로고' priority className='w-80' />
-          <div className='flex flex-col justify-center'>
+          <div className='flex flex-col justify-center  text-end'>
             <p className=' text-4xl font-bold mb-4'>모든 책을 한곳에</p>
             <p className=' text-xl'>서재를 등록하고, 읽기 상태를 한 눈에 관리하세요</p>
           </div>
@@ -66,7 +66,7 @@ export default function Home() {
 
         <section className='py-12 flex justify-between'>
           <Image src={info4} alt='로고' priority className='w-80' />
-          <div className='flex flex-col justify-center'>
+          <div className='flex flex-col justify-center text-end'>
             <p className=' text-4xl font-bold mb-4'>중요한 순간, 독서노트에</p>
             <p className=' text-xl'>기간, 평점, 노트까지 원하는 방식으로 기록을 남겨보세요</p>
           </div>
@@ -82,13 +82,13 @@ export default function Home() {
 
         <section className='py-12 flex justify-between'>
           <Image src={info6} alt='로고' priority className='w-80' />
-          <div className='flex flex-col justify-center'>
+          <div className='flex flex-col justify-center  text-end'>
             <p className=' text-4xl font-bold mb-4'>내 스타일대로 책정리</p>
             <p className=' text-xl'>원하는 카테고리로 서재를 자유롭게 구성하세요</p>
           </div>
         </section>
 
-        <section className='py-12 flex flex-col justify-center items-center'>
+        <section className='py-16 flex flex-col justify-center items-center'>
           <p className=' text-3xl font-bold mb-4 text-center leading-13'>
             읽은 책이 쌓일수록 마음도 가득 채워지는 경험 <br />
             여러분의 독서경험이 더욱 특별해지도록 빼곡이 함께할게요
@@ -108,10 +108,10 @@ export default function Home() {
       <footer className='mt-28 w-full py-16 bg-[#f0f0f0]'>
         <section className='w-4xl m-auto flex'>
           <div className='px-4 py-2'>
-            <Link href='/privacy'>개인정보처리방침</Link>
+            <Link href='/legal/privacy'>개인정보처리방침</Link>
           </div>
           <div className='px-4 py-2'>
-            <Link href='/term'>이옹약관</Link>
+            <Link href='/legal/term'>이용약관</Link>
           </div>
         </section>
       </footer>
