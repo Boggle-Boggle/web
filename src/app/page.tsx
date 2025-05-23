@@ -111,7 +111,7 @@ export default function Home() {
             </p>
 
             <a
-              className='mt-8 h-16 w-64 bg-[#E6B9A6] text-white text-xl font-extrabold rounded-xl flex justify-center items-center'
+              className='mt-8 h-16 w-64 bg-[#E6B9A6] hover:bg-[#f1bca5] text-white text-xl font-extrabold rounded-xl flex justify-center items-center'
               rel='noopener noreferrer'
               target='_blank'
               href='https://linktr.ee/bbaegok'
